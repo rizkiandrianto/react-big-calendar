@@ -38,7 +38,7 @@
     "test": "npm run lint && jest",
     "tdd": "karma start",
     "release": "release",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "react": "^15.3.0 || ^16.0.0",
